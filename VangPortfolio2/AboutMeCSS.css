@@ -9,23 +9,23 @@ font-family: sans-serif;
 
 h2 {
     font-family: sans-serif; Time;
-    margin: 0px 30px 20px 50px;
+    margin: 20px 30px 20px 50px;
 }
 
 div {
 background-color: #7AC5CD;
-height: 800px;
-width: 500px;
+width: 80%;
 border-radius: 10px;
 border-color: #BCD2EE;
 margin: auto; 
-}
+max-height: 200%;}
 
 img {
 border-radius: 5px;
 height: 150px;
 border: 1px solid black;
 margin: 0px 30px 20px 50px;
+max-width: 100%;
 }
 
 p {

@@ -16,6 +16,7 @@ h1 {
   position: relative;
   width: 500px;
   margin: 50px auto 100px auto;
+  max-width: 100%;
 }
 
 input {
@@ -24,6 +25,7 @@ input {
   width: 470px;
   height: 50px;
   padding: 0px 15px 0px 15px;
+  max-width: 100%;
   
   background: transparent;
   outline: none;
@@ -45,7 +47,7 @@ input:hover {
 
 textarea {
   width: 470px;
-  max-width: 470px;
+  max-width: 100%;
   height: 110px;
   max-height: 110px;
   padding: 15px;
@@ -72,6 +74,7 @@ textarea:hover {
 
 #submit {
   width: 502px;
+  max-width: 100%;
   
   padding: 0;
   margin: -5px 0px 0px 0px;
@@ -95,7 +98,7 @@ textarea:hover {
 div {
 background-color: #7AC5CD;
 height: 1000px;
-width: 600px;
+width: 50%;
 border-radius: 10px;
 border-color: #BCD2EE;
 margin: auto;
