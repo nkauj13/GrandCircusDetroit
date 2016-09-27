@@ -1,0 +1,89 @@
+@font-face {
+   font-family: myFirstFont;
+   src: url(sansation_light.woff);
+}
+
+@font-face {
+   font-family: myFirstFont;
+   src: url(sansation_bold.woff);
+   font-weight: bold;
+}
+
+body {
+background-color: powderblue;
+text-align: center;
+}
+
+div {
+background-color: #7AC5CD;
+height: 100%;
+width: 36%;
+border-radius: 10px;
+border-color: #BCD2EE;
+margin: auto;
+}
+
+h1 {
+text-align: center;
+font-family: sans-serif;}
+
+span {
+    font-family: myFirstFont;
+}
+
+h2 {
+    font-family: sans-serif;
+}
+
+p {
+font-family: sans-serif;
+color: #2F4F4F;
+margin: 0px 20px 0px 20px;}
+
+blockquote {
+    font-family: Times;
+    color: black;
+    margin: 20px 50px 20px 50px;
+}
+
+
+img {
+border-radius: 5px;
+height: 150px;
+border: 1px solid black;}
+
+.img {
+    height: 100px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.list {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    font-family: sans-serif;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
